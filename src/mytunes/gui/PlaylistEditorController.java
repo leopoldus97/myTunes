@@ -9,8 +9,13 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 /**
  * FXML Controller class
@@ -22,6 +27,8 @@ public class PlaylistEditorController implements Initializable
 
     @FXML
     private TextField txtPlaylistName;
+    @FXML
+    private Button cancelButton;
 
     /**
      * Initializes the controller class.

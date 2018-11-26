@@ -9,8 +9,8 @@
 
 <AnchorPane id="AnchorPane" prefHeight="222.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mytunes.gui.PlaylistEditorController">
    <children>
-      <Button layoutX="219.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickToCancel" text="Cancel" />
-      <Button layoutX="298.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickToSave" text="Save" />
+      <Button fx:id="cancelButton" layoutX="312.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickToCancel" text="Cancel" />
+      <Button layoutX="224.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickToSave" text="Save" />
       <TextField fx:id="txtPlaylistName" layoutX="116.0" layoutY="73.0" prefHeight="26.0" prefWidth="248.0" />
       <Label layoutX="52.0" layoutY="72.0" text="Name:">
          <font>
