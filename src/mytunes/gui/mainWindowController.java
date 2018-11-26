@@ -5,12 +5,18 @@
  */
 package mytunes.gui;
 
+import java.io.File;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 
 /**
  *
@@ -18,21 +24,98 @@ import javafx.scene.control.Label;
  */
 public class mainWindowController implements Initializable
 {
-    
+
     @FXML
-    private Label label;
-    
+    private ListView<?> listSongsOnPlaylist;
     @FXML
-    private void handleButtonAction(ActionEvent event)
-    {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
-    }
-    
+    private TextField txtSearch;
+    @FXML
+    private Label lblSongTitle;
+    @FXML
+    private TableView<?> tablePlaylist;
+    @FXML
+    private TableView<?> tableSongs;
+
     @Override
     public void initialize(URL url, ResourceBundle rb)
     {
         // TODO
-    }    
-    
+    }
+
+    @FXML
+    private void clickToPutSong(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToSearch(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToDeleteSongFromPlaylist(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToChangeOrderDown(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToEditSong(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToDeleteSong(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToCloseTab(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToNewPlaylist(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToNewSong(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToEditPlaylist(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToDeletePlaylist(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void clickToChangeOrderUp(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void play(ActionEvent event)
+    {
+
+    }
+
+    @FXML
+    private void forward(ActionEvent event)
+    {
+    }
+
+    @FXML
+    private void backward(ActionEvent event)
+    {
+    }
+
 }
